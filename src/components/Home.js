@@ -1,113 +1,79 @@
-import React from 'react'
-import '../components/style.css'
-import img1 from '../components/images/cartIcon.svg'
-import DEV from '../components/images/logo.png'
+import React from 'react';
+import '../style/components/Home.css'
+import audifonos from '../images/audifonos.jpg'
 
 function Home (){
     return(
-        <React.Fragment>
-            <nav>
-                {/* <img src={img1} alt="menu" class="menu"/> */}
-
-                <div class="navbar-left">
-                <img src={DEV} alt="logo" class="logo" />
-
-                <ul>
-                    <li>
-                    <a href="/">Todos</a>
-                    </li>
-                    <li>
-                    <a href="/">Computadores</a>
-                    </li>
-                    <li>
-                    <a href="/">Accesorios</a>
-                    </li>
-                    <li>
-                    <a href="/">Celulares</a>
-                    </li>
-                    <li>
-                    <a href="/">Repuestos</a>
-                    </li>
-                    <li>
-                    <a href="/">Otros</a>
-                    </li>
-                </ul>
+        <>
+        <h1 className = "Title">Productos</h1>
+        <div className="Productos">
+            <div className="producto">
+                <a href="#">
+                    <div className = "producto-img">
+                        <img src= {audifonos}/>
+                    </div>
+                </a>
+                <div className = "producto-footter">
+                    <h1>Title</h1>
+                    <p>Categoria</p>
+                    <p className="Precio">Precio: $ 120.000</p>
                 </div>
-
-                <div class="navbar-right">
-                <ul>
-                    <li class="navbar-email">
-                        Cuenta
-                    </li>
-                    <li class="navbar-shopping-cart">
-                    <img src={img1} alt="shopping cart" />
-                    <div>2</div>
-                    </li>
-                </ul>
+                <div className="buttom">
+                    <button className="btn">
+                        Añadir al carrito
+                    </button>
+                    <div>
+                        <a href="#" className="btn">Vista</a>
+                    </div>
                 </div>
+            </div>
 
-                <div class="desktop-menu inactive">
-                    <ul>
-                    <li>
-                        <a href="/" class="title">My orders</a>
-                    </li>
-                
-                    <li>
-                        <a href="/">My account</a>
-                    </li>
-                
-                    <li>
-                        <a href="/">Sign out</a>
-                    </li>
-                    </ul>
+            {/* producto 2 */}
+            <div className="producto">
+                <a href="#">
+                    <div className = "producto-img">
+                        <img src= {audifonos}/>
+                    </div>
+                </a>
+                <div className = "producto-footter">
+                    <h1>Title</h1>
+                    <p>Categoria</p>
+                    <p className="Precio">Precio: $ 120.000</p>
                 </div>
+                <div>
+                    <button className="btn">
+                        Añadir al carrito
+                    </button>
+                    <div>
+                        <a href="#" className="btn">Vista</a>
+                    </div>
+                </div>
+            </div>
 
-                <div class="mobile-menu inactive">
-                <ul>
-                    <li>
-                    <a href="/">CATEGORIES</a>
-                    </li>
-                    <li>
-                    <a href="/">All</a>
-                    </li>
-                    <li>
-                    <a href="/">Clothes</a>
-                    </li>
-                    <li>
-                    <a href="/">Electronics</a>
-                    </li>
-                    <li>
-                    <a href="/">Furnitures</a>
-                    </li>
-                    <li>
-                    <a href="/">Toys</a>
-                    </li>
-                    <li>
-                    <a href="/">Other</a>
-                    </li>
-                </ul>
-            
-                <ul>
-                    <li>
-                    <a href="/">My orders</a>
-                    </li>
-                    <li>
-                    <a href="/">My account</a>
-                    </li>
-                </ul>
-            
-                <ul>
-                    <li>
-                    <a href="/" class="email">platzi@example.com</a>
-                    </li>
-                    <li>
-                    <a href="/" class="sign-out">Sign out</a>
-                    </li>
-                </ul>
+            {/* producto3 */}
+            <div className="producto">
+                <a href="#">
+                    <div className = "producto-img">
+                        <img src= {audifonos}/>
+                    </div>
+                </a>
+                <div className = "producto-footter">
+                    <h1>Title</h1>
+                    <p>Categoria</p>
+                    <p className="Precio">Precio: $ 120.000</p>
                 </div>
-            </nav>
-        </React.Fragment>
+                <div>
+                    <button className="btn">
+                        Añadir al carrito
+                    </button>
+                    <div>
+                        <a href="#" className="btn">Vista</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </>
     );
 }
 
-export { Home };
+export {Home}

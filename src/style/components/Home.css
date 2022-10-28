@@ -1,0 +1,40 @@
+
+.Title{
+    font-size: 40px;
+    padding: 5px 0 0 0;
+    color: var(--very-light-pink);
+} 
+
+.productos{
+    padding: 5px 3px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(352px,1fr));
+    gap: 5px 6px;
+    box-sizing: border-box;
+}   
+
+.producto {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* box-shadow: 1px  10px 10px 2px black; */
+
+}
+
+.producto-img img{
+    width:250px;
+    padding-left:40px;
+
+}
+
+.Productos-footter h1{
+    font-weight: 600;
+    font-size: 5px;
+    color:black;
+    /* font-size: ; */
+}
+
+.buttom buton{
+
+}

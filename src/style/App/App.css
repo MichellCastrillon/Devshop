@@ -1,0 +1,29 @@
+/*======================================*/
+/*==========Variables Generales=========*/
+/*======================================*/
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --very-light-pink: #888787;
+  --text-input-field: #F7F7F7;
+  --hospital-green: rgb(12, 4, 60);
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: #83a4d4;  /* fallback for old browsers */
+  background: linear-gradient(180deg,#b6fbff, #83a4d4);
+}
+
+.inactive{
+  display:none;
+}
