@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import '../style/components/NavBar.css'
 import cartIcon from '../images/cartIcon.svg'
 import logo from '../images/logo.png'
@@ -12,22 +13,25 @@ function NavBar (){
                 <img src={logo} alt="logo" class="logo" />
                 <ul>
                     <li>
-                    <a href="/">Todos</a>
+                        <a href="/">Todos</a>
                     </li>
                     <li>
-                    <a href="/">Computadores</a>
+                        <a href="/">Computadores</a>
                     </li>
                     <li>
-                    <a href="/">Accesorios</a>
+                        <a href="/">Accesorios</a>
                     </li>
                     <li>
-                    <a href="/">Celulares</a>
+                        <a href="/">Celulares</a>
                     </li>
                     <li>
-                    <a href="/">Repuestos</a>
+                        <a href="/">Repuestos</a>
                     </li>
                     <li>
-                    <a href="/">Otros</a>
+                        <a href="/">Otros</a>
+                    </li>
+                    <li>
+                        <Link to="/home">Home</Link>
                     </li>
                 </ul>
                 </div>
@@ -35,7 +39,7 @@ function NavBar (){
                 <div class="navbar-right">
                 <ul>
                     <li class="navbar-email">
-                        Cuenta
+                        <Link to="/login">Login</Link>
                     </li>
                     <li class="navbar-shopping-cart">
                     <img src={cartIcon} alt="shopping cart" />
@@ -44,7 +48,7 @@ function NavBar (){
                 </ul>
                 </div>
 
-                <div class="desktop-menu inactive">
+                {/* <div class="desktop-menu inactive">
                     <ul>
                     <li>
                         <a href="/" class="title">My orders</a>
@@ -58,7 +62,7 @@ function NavBar (){
                         <a href="/">Sign out</a>
                     </li>
                     </ul>
-                </div>
+                </div> */}
 
                 {/* <div class="mobile-menu inactive">
                     <ul>
