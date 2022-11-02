@@ -1,10 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import '../style/components/NavBar.css'
-import cartIcon from '../images/cartIcon.svg'
-import logo from '../images/logo.png'
+import '../../style/components/NavBar.css'
+import cartIcon from '../../images/cartIcon.svg'
+import logo from '../../images/logo.png'
 
-function NavBar (){
+function NavBarAdmin (){
     return(
         <React.Fragment>
             <nav>
@@ -13,37 +13,16 @@ function NavBar (){
                 <img src={logo} alt="logo" class="logo" />
                 <ul>
                     <li>
-                        <a href="/">Todos</a>
+                        <a href="/">Lista productos</a>
                     </li>
                     <li>
-                        <a href="/">Computadores</a>
+                        <a href="/">Modificar productos</a>
                     </li>
                     <li>
-                        <a href="/">Accesorios</a>
+                        <Link to="/listaventas">Lista ventas</Link>
                     </li>
                     <li>
-                        <a href="/">Celulares</a>
-                    </li>
-                    <li>
-                        <a href="/">Repuestos</a>
-                    </li>
-                    <li>
-                        <a href="/">Otros</a>
-                    </li>
-                    <li>
-                        <Link to="/home">Home</Link>
-                    </li>
-                </ul>
-                </div>
-
-                <div class="navbar-right">
-                <ul>
-                    <li class="navbar-email">
-                        <Link to="/login">Login</Link>
-                    </li>
-                    <li class="navbar-shopping-cart">
-                    <img src={cartIcon} alt="shopping cart" />
-                    <div>2</div>
+                        <Link to="/homeAdmin">Home</Link>
                     </li>
                 </ul>
                 </div>
@@ -112,4 +91,4 @@ function NavBar (){
     );
 }
 
-export { NavBar };
+export { NavBarAdmin };

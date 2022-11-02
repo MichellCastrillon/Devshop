@@ -1,13 +1,13 @@
 import React from 'react';
-import '../style/components/Home.css'
-import audifonos from '../images/audifonos.jpg'
-import mouse from '../images/mouse.jpg'
-import psp from '../images/psp.jpg'
-import tarjetagrafica from '../images/tarjetaGrafica.jpg'
-import teclado from '../images/teclado.jpg'
-import computador from '../images/computador.jpg'
+import '../../style/components/Home.css'
+import audifonos from '../../images/audifonos.jpg'
+import mouse from '../../images/mouse.jpg'
+import psp from '../../images/psp.jpg'
+import tarjetagrafica from '../../images/tarjetaGrafica.jpg'
+import teclado from '../../images/teclado.jpg'
+import computador from '../../images/computador.jpg'
 
-function Home (){
+function HomeBodyAdmin (){
     return(
         <>
         <h1 className = "Title">Productos</h1>
@@ -24,13 +24,8 @@ function Home (){
                     <p className="Precio">Precio: $ 120.000</p>
                 </div>
                 <div className="Buttom">
-                    <div className="Boton">
-                        <button>
-                            Añadir al carrito
-                        </button>
-                    </div>
                     <div className="Btn-container">
-                        <a href="#" className="Btn">Ver mas</a>
+                        <a href="#" className="Btn">Modificar producto</a>
                     </div>
                 </div>
             </div>
@@ -48,13 +43,8 @@ function Home (){
                     <p className="Precio">Precio: $ 120.000</p>
                 </div>
                 <div className="Buttom">
-                    <div className="Boton">
-                        <button>
-                            Añadir al carrito
-                        </button>
-                    </div>
                     <div className="Btn-container">
-                        <a href="#" className="Btn">Ver mas</a>
+                        <a href="#" className="Btn">Modificar producto</a>
                     </div>
                 </div>
             </div>
@@ -71,13 +61,8 @@ function Home (){
                     <p className="Precio">Precio: $ 9.000</p>
                 </div>
                 <div className="Buttom">
-                    <div className="Boton">
-                        <button>
-                            Añadir al carrito
-                        </button>
-                    </div>
                     <div className="Btn-container">
-                        <a href="#" className="Btn">Ver mas</a>
+                        <a href="#" className="Btn">Modificar producto</a>
                     </div>
                 </div>
             </div>
@@ -94,13 +79,8 @@ function Home (){
                     <p className="Precio">Precio: $ 80.000</p>
                 </div>
                 <div className="Buttom">
-                    <div className="Boton">
-                        <button>
-                            Añadir al carrito
-                        </button>
-                    </div>
                     <div className="Btn-container">
-                        <a href="#" className="Btn">Ver mas</a>
+                        <a href="#" className="Btn">Modificar producto</a>
                     </div>
                 </div>
             </div>
@@ -118,13 +98,8 @@ function Home (){
                     <p className="Precio">Precio: $ 900.000</p>
                 </div>
                 <div className="Buttom">
-                    <div className="Boton">
-                        <button>
-                            Añadir al carrito
-                        </button>
-                    </div>
                     <div className="Btn-container">
-                        <a href="#" className="Btn">Ver mas</a>
+                        <a href="#" className="Btn">Modificar producto</a>
                     </div>
                 </div>
             </div>
@@ -141,13 +116,8 @@ function Home (){
                     <p className="Precio">Precio: $ 120.000</p>
                 </div>
                 <div className="Buttom">
-                    <div className="Boton">
-                        <button>
-                            Añadir al carrito
-                        </button>
-                    </div>
                     <div className="Btn-container">
-                        <a href="#" className="Btn">Ver mas</a>
+                        <a href="#" className="Btn">Modificar producto</a>
                     </div>
                 </div>
             </div>
@@ -156,4 +126,4 @@ function Home (){
     );
 }
 
-export {Home}
+export {HomeBodyAdmin}

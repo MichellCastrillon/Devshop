@@ -1,7 +1,7 @@
 import React from 'react';
-import '../style/components/Footer.css'
-import logo from '../images/logo.png'
-import wave from '../images/wave.png'
+import '../../style/components/Footer.css'
+import logo from '../../images/logo.png'
+import wave from '../../images/wave.png'
 
 function Footer() {
     return (
