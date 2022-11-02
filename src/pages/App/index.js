@@ -5,7 +5,7 @@ import {HomeAdmin} from '../HomeAdmin/index'
 function App() {
   return (
     <div className="App">
-      <HomeAdmin/>
+      <HomeUser/>
     </div>
   );
 }

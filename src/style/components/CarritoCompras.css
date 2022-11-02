@@ -1,0 +1,50 @@
+#main-container{
+    margin:150px auto;
+    width:600px;
+}
+
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,td{
+    border: solid 1px black;
+
+}
+
+td,th{
+    text-align: center;
+}
+tr td img{
+    width:100px;
+    height: 100px;
+}
+
+.botones{
+    width:100%;
+    height: 45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 3px;
+}
+
+.botones .btn{
+    background: #54a494 ;
+    padding: 8px 8px;
+    border:none;
+    border-radius: 10px;
+}
+
+.botones .btn:hover{
+    background: #00b0f0 ;
+    color:white;
+    padding: 8px 8px;
+    border:none;
+    border-radius: 10px;
+}
+

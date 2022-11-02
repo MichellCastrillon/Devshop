@@ -28,7 +28,10 @@ function NavBar (){
                         <a href="/">Repuestos</a>
                     </li>
                     <li>
-                        <a href="/">Otros</a>
+                        <a href="/carrito">Carrito</a>
+                    </li>
+                    <li>
+                        <Link to="/">Otros</Link>
                     </li>
                     <li>
                         <Link to="/home">Home</Link>
