@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Home } from '../Home/index'
+import { HomeUser } from '../HomeUser/index'
 import {HomeAdmin} from '../HomeAdmin/index'
 
 function App() {

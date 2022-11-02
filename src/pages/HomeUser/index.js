@@ -5,7 +5,7 @@ import { Footer } from '../../components/Footer/index';
 import { Login } from '../../components/Login/index';
 import '../../style/App/App.css'
 
-function Home() {
+function HomeUser() {
   return (
     <div className="Home">
       <BrowserRouter>
@@ -21,4 +21,4 @@ function Home() {
   );
 }
 
-export { Home };
+export { HomeUser };
