@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment,useEffect, useState} from 'react';
 import '../../style/components/Home.css'
 import audifonos from '../../images/audifonos.jpg'
 import mouse from '../../images/mouse.jpg'
@@ -45,7 +45,7 @@ function HomeBody (){
                 <div className = "Producto-footer">
                     <h1>Mouse</h1>
                     <p>Categoria: Computadores</p>
-                    <p className="Precio">Precio: $ 120.000</p>
+                    <p className="Precio">Precio: $ 80.000</p>
                 </div>
                 <div className="Buttom">
                     <div className="Boton">
@@ -68,7 +68,7 @@ function HomeBody (){
                 <div className = "Producto-footer">
                     <h1>psp</h1>
                     <p>Categoria: Otros</p>
-                    <p className="Precio">Precio: $ 9.000</p>
+                    <p className="Precio">Precio: $ 90.000</p>
                 </div>
                 <div className="Buttom">
                     <div className="Boton">

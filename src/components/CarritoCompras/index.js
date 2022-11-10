@@ -37,7 +37,7 @@ function CarritoCompras(){
             </table> 
             <div class="botones">
                 <div class="btn">
-                    <bottom>Finaliza Compra</bottom>
+                    <bottom>Finalizar Compra</bottom>
                 </div>
                  <div class="btn">
                     <bottom>Cancelar</bottom>
